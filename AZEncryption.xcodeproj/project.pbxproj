@@ -15,6 +15,12 @@
 		286BCD171F34151700E6FB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286BCD151F34151700E6FB15 /* LaunchScreen.storyboard */; };
 		286BCD221F34151700E6FB15 /* AZEncryptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD211F34151700E6FB15 /* AZEncryptionTests.m */; };
 		286BCD2D1F34151700E6FB15 /* AZEncryptionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD2C1F34151700E6FB15 /* AZEncryptionUITests.m */; };
+		286BCD5C1F34618800E6FB15 /* AZRSACrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD4F1F34618800E6FB15 /* AZRSACrypto.m */; };
+		286BCD5D1F34618800E6FB15 /* AZSymmetricEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD511F34618800E6FB15 /* AZSymmetricEncryption.m */; };
+		286BCD5E1F34618800E6FB15 /* NSString+HashAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD541F34618800E6FB15 /* NSString+HashAlgorithm.m */; };
+		286BCD5F1F34618800E6FB15 /* SSKeychain.strings in Resources */ = {isa = PBXBuildFile; fileRef = 286BCD561F34618800E6FB15 /* SSKeychain.strings */; };
+		286BCD601F34618800E6FB15 /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD591F34618800E6FB15 /* SSKeychain.m */; };
+		286BCD611F34618800E6FB15 /* SSKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD5B1F34618800E6FB15 /* SSKeychainQuery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		286BCD281F34151700E6FB15 /* AZEncryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZEncryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		286BCD2C1F34151700E6FB15 /* AZEncryptionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZEncryptionUITests.m; sourceTree = "<group>"; };
 		286BCD2E1F34151700E6FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286BCD4E1F34618800E6FB15 /* AZRSACrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZRSACrypto.h; sourceTree = "<group>"; };
+		286BCD4F1F34618800E6FB15 /* AZRSACrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZRSACrypto.m; sourceTree = "<group>"; };
+		286BCD501F34618800E6FB15 /* AZSymmetricEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSymmetricEncryption.h; sourceTree = "<group>"; };
+		286BCD511F34618800E6FB15 /* AZSymmetricEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSymmetricEncryption.m; sourceTree = "<group>"; };
+		286BCD521F34618800E6FB15 /* EncryptionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionHeader.h; sourceTree = "<group>"; };
+		286BCD531F34618800E6FB15 /* NSString+HashAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HashAlgorithm.h"; sourceTree = "<group>"; };
+		286BCD541F34618800E6FB15 /* NSString+HashAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HashAlgorithm.m"; sourceTree = "<group>"; };
+		286BCD571F34618800E6FB15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SSKeychain.strings; sourceTree = "<group>"; };
+		286BCD581F34618800E6FB15 /* SSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychain.h; sourceTree = "<group>"; };
+		286BCD591F34618800E6FB15 /* SSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychain.m; sourceTree = "<group>"; };
+		286BCD5A1F34618800E6FB15 /* SSKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSKeychainQuery.h; sourceTree = "<group>"; };
+		286BCD5B1F34618800E6FB15 /* SSKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSKeychainQuery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +119,7 @@
 		286BCD061F34151700E6FB15 /* AZEncryption */ = {
 			isa = PBXGroup;
 			children = (
+				286BCD4D1F34618800E6FB15 /* Encryption */,
 				286BCD0A1F34151700E6FB15 /* AppDelegate.h */,
 				286BCD0B1F34151700E6FB15 /* AppDelegate.m */,
 				286BCD0D1F34151700E6FB15 /* ViewController.h */,
@@ -138,6 +157,33 @@
 				286BCD2E1F34151700E6FB15 /* Info.plist */,
 			);
 			path = AZEncryptionUITests;
+			sourceTree = "<group>";
+		};
+		286BCD4D1F34618800E6FB15 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				286BCD4E1F34618800E6FB15 /* AZRSACrypto.h */,
+				286BCD4F1F34618800E6FB15 /* AZRSACrypto.m */,
+				286BCD501F34618800E6FB15 /* AZSymmetricEncryption.h */,
+				286BCD511F34618800E6FB15 /* AZSymmetricEncryption.m */,
+				286BCD521F34618800E6FB15 /* EncryptionHeader.h */,
+				286BCD531F34618800E6FB15 /* NSString+HashAlgorithm.h */,
+				286BCD541F34618800E6FB15 /* NSString+HashAlgorithm.m */,
+				286BCD551F34618800E6FB15 /* SSKeychain */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+		286BCD551F34618800E6FB15 /* SSKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				286BCD561F34618800E6FB15 /* SSKeychain.strings */,
+				286BCD581F34618800E6FB15 /* SSKeychain.h */,
+				286BCD591F34618800E6FB15 /* SSKeychain.m */,
+				286BCD5A1F34618800E6FB15 /* SSKeychainQuery.h */,
+				286BCD5B1F34618800E6FB15 /* SSKeychainQuery.m */,
+			);
+			path = SSKeychain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +292,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286BCD5F1F34618800E6FB15 /* SSKeychain.strings in Resources */,
 				286BCD171F34151700E6FB15 /* LaunchScreen.storyboard in Resources */,
 				286BCD141F34151700E6FB15 /* Assets.xcassets in Resources */,
 				286BCD121F34151700E6FB15 /* Main.storyboard in Resources */,
@@ -273,8 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286BCD5D1F34618800E6FB15 /* AZSymmetricEncryption.m in Sources */,
 				286BCD0F1F34151700E6FB15 /* ViewController.m in Sources */,
+				286BCD601F34618800E6FB15 /* SSKeychain.m in Sources */,
 				286BCD0C1F34151700E6FB15 /* AppDelegate.m in Sources */,
+				286BCD611F34618800E6FB15 /* SSKeychainQuery.m in Sources */,
+				286BCD5E1F34618800E6FB15 /* NSString+HashAlgorithm.m in Sources */,
+				286BCD5C1F34618800E6FB15 /* AZRSACrypto.m in Sources */,
 				286BCD091F34151700E6FB15 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +377,14 @@
 				286BCD161F34151700E6FB15 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		286BCD561F34618800E6FB15 /* SSKeychain.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286BCD571F34618800E6FB15 /* en */,
+			);
+			name = SSKeychain.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -507,6 +567,7 @@
 				286BCD331F34151800E6FB15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		286BCD341F34151800E6FB15 /* Build configuration list for PBXNativeTarget "AZEncryptionTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +576,7 @@
 				286BCD361F34151800E6FB15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		286BCD371F34151800E6FB15 /* Build configuration list for PBXNativeTarget "AZEncryptionUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +585,7 @@
 				286BCD391F34151800E6FB15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
