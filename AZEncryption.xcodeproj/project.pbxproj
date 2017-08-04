@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286BCD091F34151700E6FB15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD081F34151700E6FB15 /* main.m */; };
+		286BCD0C1F34151700E6FB15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD0B1F34151700E6FB15 /* AppDelegate.m */; };
+		286BCD0F1F34151700E6FB15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD0E1F34151700E6FB15 /* ViewController.m */; };
+		286BCD121F34151700E6FB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286BCD101F34151700E6FB15 /* Main.storyboard */; };
+		286BCD141F34151700E6FB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286BCD131F34151700E6FB15 /* Assets.xcassets */; };
+		286BCD171F34151700E6FB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286BCD151F34151700E6FB15 /* LaunchScreen.storyboard */; };
+		286BCD221F34151700E6FB15 /* AZEncryptionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD211F34151700E6FB15 /* AZEncryptionTests.m */; };
+		286BCD2D1F34151700E6FB15 /* AZEncryptionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BCD2C1F34151700E6FB15 /* AZEncryptionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		286BCD1E1F34151700E6FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286BCCFC1F34151700E6FB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286BCD031F34151700E6FB15;
+			remoteInfo = AZEncryption;
+		};
+		286BCD291F34151700E6FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286BCCFC1F34151700E6FB15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286BCD031F34151700E6FB15;
+			remoteInfo = AZEncryption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286BCD041F34151700E6FB15 /* AZEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		286BCD081F34151700E6FB15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		286BCD0A1F34151700E6FB15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		286BCD0B1F34151700E6FB15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		286BCD0D1F34151700E6FB15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		286BCD0E1F34151700E6FB15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		286BCD111F34151700E6FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		286BCD131F34151700E6FB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		286BCD161F34151700E6FB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		286BCD181F34151700E6FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286BCD1D1F34151700E6FB15 /* AZEncryptionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZEncryptionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286BCD211F34151700E6FB15 /* AZEncryptionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZEncryptionTests.m; sourceTree = "<group>"; };
+		286BCD231F34151700E6FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286BCD281F34151700E6FB15 /* AZEncryptionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZEncryptionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286BCD2C1F34151700E6FB15 /* AZEncryptionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZEncryptionUITests.m; sourceTree = "<group>"; };
+		286BCD2E1F34151700E6FB15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286BCD011F34151700E6FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCD1A1F34151700E6FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCD251F34151700E6FB15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286BCCFB1F34151700E6FB15 = {
+			isa = PBXGroup;
+			children = (
+				286BCD061F34151700E6FB15 /* AZEncryption */,
+				286BCD201F34151700E6FB15 /* AZEncryptionTests */,
+				286BCD2B1F34151700E6FB15 /* AZEncryptionUITests */,
+				286BCD051F34151700E6FB15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286BCD051F34151700E6FB15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286BCD041F34151700E6FB15 /* AZEncryption.app */,
+				286BCD1D1F34151700E6FB15 /* AZEncryptionTests.xctest */,
+				286BCD281F34151700E6FB15 /* AZEncryptionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286BCD061F34151700E6FB15 /* AZEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				286BCD0A1F34151700E6FB15 /* AppDelegate.h */,
+				286BCD0B1F34151700E6FB15 /* AppDelegate.m */,
+				286BCD0D1F34151700E6FB15 /* ViewController.h */,
+				286BCD0E1F34151700E6FB15 /* ViewController.m */,
+				286BCD101F34151700E6FB15 /* Main.storyboard */,
+				286BCD131F34151700E6FB15 /* Assets.xcassets */,
+				286BCD151F34151700E6FB15 /* LaunchScreen.storyboard */,
+				286BCD181F34151700E6FB15 /* Info.plist */,
+				286BCD071F34151700E6FB15 /* Supporting Files */,
+			);
+			path = AZEncryption;
+			sourceTree = "<group>";
+		};
+		286BCD071F34151700E6FB15 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				286BCD081F34151700E6FB15 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		286BCD201F34151700E6FB15 /* AZEncryptionTests */ = {
+			isa = PBXGroup;
+			children = (
+				286BCD211F34151700E6FB15 /* AZEncryptionTests.m */,
+				286BCD231F34151700E6FB15 /* Info.plist */,
+			);
+			path = AZEncryptionTests;
+			sourceTree = "<group>";
+		};
+		286BCD2B1F34151700E6FB15 /* AZEncryptionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				286BCD2C1F34151700E6FB15 /* AZEncryptionUITests.m */,
+				286BCD2E1F34151700E6FB15 /* Info.plist */,
+			);
+			path = AZEncryptionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286BCD031F34151700E6FB15 /* AZEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286BCD311F34151800E6FB15 /* Build configuration list for PBXNativeTarget "AZEncryption" */;
+			buildPhases = (
+				286BCD001F34151700E6FB15 /* Sources */,
+				286BCD011F34151700E6FB15 /* Frameworks */,
+				286BCD021F34151700E6FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZEncryption;
+			productName = AZEncryption;
+			productReference = 286BCD041F34151700E6FB15 /* AZEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+		286BCD1C1F34151700E6FB15 /* AZEncryptionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286BCD341F34151800E6FB15 /* Build configuration list for PBXNativeTarget "AZEncryptionTests" */;
+			buildPhases = (
+				286BCD191F34151700E6FB15 /* Sources */,
+				286BCD1A1F34151700E6FB15 /* Frameworks */,
+				286BCD1B1F34151700E6FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286BCD1F1F34151700E6FB15 /* PBXTargetDependency */,
+			);
+			name = AZEncryptionTests;
+			productName = AZEncryptionTests;
+			productReference = 286BCD1D1F34151700E6FB15 /* AZEncryptionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		286BCD271F34151700E6FB15 /* AZEncryptionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286BCD371F34151800E6FB15 /* Build configuration list for PBXNativeTarget "AZEncryptionUITests" */;
+			buildPhases = (
+				286BCD241F34151700E6FB15 /* Sources */,
+				286BCD251F34151700E6FB15 /* Frameworks */,
+				286BCD261F34151700E6FB15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286BCD2A1F34151700E6FB15 /* PBXTargetDependency */,
+			);
+			name = AZEncryptionUITests;
+			productName = AZEncryptionUITests;
+			productReference = 286BCD281F34151700E6FB15 /* AZEncryptionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286BCCFC1F34151700E6FB15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "徐振";
+				TargetAttributes = {
+					286BCD031F34151700E6FB15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					286BCD1C1F34151700E6FB15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 286BCD031F34151700E6FB15;
+					};
+					286BCD271F34151700E6FB15 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 286BCD031F34151700E6FB15;
+					};
+				};
+			};
+			buildConfigurationList = 286BCCFF1F34151700E6FB15 /* Build configuration list for PBXProject "AZEncryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 286BCCFB1F34151700E6FB15;
+			productRefGroup = 286BCD051F34151700E6FB15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286BCD031F34151700E6FB15 /* AZEncryption */,
+				286BCD1C1F34151700E6FB15 /* AZEncryptionTests */,
+				286BCD271F34151700E6FB15 /* AZEncryptionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286BCD021F34151700E6FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BCD171F34151700E6FB15 /* LaunchScreen.storyboard in Resources */,
+				286BCD141F34151700E6FB15 /* Assets.xcassets in Resources */,
+				286BCD121F34151700E6FB15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCD1B1F34151700E6FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCD261F34151700E6FB15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286BCD001F34151700E6FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BCD0F1F34151700E6FB15 /* ViewController.m in Sources */,
+				286BCD0C1F34151700E6FB15 /* AppDelegate.m in Sources */,
+				286BCD091F34151700E6FB15 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCD191F34151700E6FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BCD221F34151700E6FB15 /* AZEncryptionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286BCD241F34151700E6FB15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286BCD2D1F34151700E6FB15 /* AZEncryptionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		286BCD1F1F34151700E6FB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286BCD031F34151700E6FB15 /* AZEncryption */;
+			targetProxy = 286BCD1E1F34151700E6FB15 /* PBXContainerItemProxy */;
+		};
+		286BCD2A1F34151700E6FB15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286BCD031F34151700E6FB15 /* AZEncryption */;
+			targetProxy = 286BCD291F34151700E6FB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		286BCD101F34151700E6FB15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286BCD111F34151700E6FB15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		286BCD151F34151700E6FB15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286BCD161F34151700E6FB15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		286BCD2F1F34151800E6FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		286BCD301F34151800E6FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286BCD321F34151800E6FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AZEncryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		286BCD331F34151800E6FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AZEncryption/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEncryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		286BCD351F34151800E6FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AZEncryptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZEncryption.app/AZEncryption";
+			};
+			name = Debug;
+		};
+		286BCD361F34151800E6FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AZEncryptionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEncryptionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AZEncryption.app/AZEncryption";
+			};
+			name = Release;
+		};
+		286BCD381F34151800E6FB15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AZEncryptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEncryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AZEncryption;
+			};
+			name = Debug;
+		};
+		286BCD391F34151800E6FB15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AZEncryptionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdhoe.azhen.AZEncryptionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AZEncryption;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286BCCFF1F34151700E6FB15 /* Build configuration list for PBXProject "AZEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BCD2F1F34151800E6FB15 /* Debug */,
+				286BCD301F34151800E6FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286BCD311F34151800E6FB15 /* Build configuration list for PBXNativeTarget "AZEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BCD321F34151800E6FB15 /* Debug */,
+				286BCD331F34151800E6FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		286BCD341F34151800E6FB15 /* Build configuration list for PBXNativeTarget "AZEncryptionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BCD351F34151800E6FB15 /* Debug */,
+				286BCD361F34151800E6FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		286BCD371F34151800E6FB15 /* Build configuration list for PBXNativeTarget "AZEncryptionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286BCD381F34151800E6FB15 /* Debug */,
+				286BCD391F34151800E6FB15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286BCCFC1F34151700E6FB15 /* Project object */;
+}
